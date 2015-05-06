@@ -1,0 +1,22 @@
+{
+    "version": "1.4.1",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false
+    },
+    "filesGlob": [
+        "./**/*.ts",
+        "!node_modules/**/*.ts"
+    ],
+    "files": [
+        "./provider.ts",
+        "./typings/atom/atom.d.ts",
+        "./typings/atompromise.d.ts",
+        "./typings/node/node.d.ts",
+        "./typings/typescript.d.ts"
+    ]
+}
